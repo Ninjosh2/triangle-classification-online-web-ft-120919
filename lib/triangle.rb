@@ -10,6 +10,6 @@ class Triangle
     validates_triangle 
     if a == b && b == c 
       :equilateral 
-    elsif
+    elsif a == b 
   
 end
