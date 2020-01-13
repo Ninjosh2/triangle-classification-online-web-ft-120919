@@ -7,7 +7,7 @@ class Triangle
   end 
   
   def kind 
-    validates_triangle 
+    validate_triangle 
     if a == b && b == c 
       :equilateral 
     elsif a == b || b == c || a == c 
@@ -17,6 +17,6 @@ class Triangle
     end 
   end 
   
-  def 
+  def validate_triangle
   
 end
