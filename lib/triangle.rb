@@ -8,5 +8,6 @@ class Triangle
   
   def kind 
     validates_triangle 
+    
   
 end
