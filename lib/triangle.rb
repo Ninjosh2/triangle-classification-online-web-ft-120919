@@ -18,5 +18,6 @@ class Triangle
   end 
   
   def validate_triangle
+    
   
 end
